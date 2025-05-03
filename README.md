@@ -1,12 +1,31 @@
-# React + Vite
+# 💱 Currency Exchanger App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and interactive currency converter built with React and Tailwind CSS. The app provides real-time currency conversions and stores conversion history locally for future reference.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Demo
 
-## Expanding the ESLint configuration
+🌐 [View Live Demo](https://hariom0.github.io/currencyExchanger/)  
+📁 [View Source Code](https://github.com/Hariom0/currencyExchanger)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🌍 Real-time currency conversion with live exchange rates
+- 📝 Local storage support for saving conversion history
+- ⚡ Fast, responsive UI optimized for both desktop and mobile
+- 🔁 Tab-based navigation: switch between **Converter** and **History** view
+
+---
+
+## 🙋‍♂️ Creator
+
+**Hariom Singh**  
+🔗 [LinkedIn](https://www.linkedin.com/in/hariom-singh-9651a4214)  
+💻 [GitHub](https://github.com/Hariom0)
+
+---
+
+
