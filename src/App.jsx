@@ -1,6 +1,7 @@
 import { use, useEffect, useRef, useState } from "react";
 import "./App.css";
 import { BackgroundBeams } from "./components/ui/background-beams";
+import { Typewriter } from 'react-simple-typewriter';
 
 import {
   ArrowLeftRight,
@@ -24,6 +25,10 @@ function App() {
     localStorage.setItem("savedData",JSON.stringify(savedData))
   },[savedData])
 
+  useEffect(() => {
+    document.title = "Currency Exchanger | Hariom Singh";
+  }, []);
+  
   function dataSaver(value) {
     setSavedData(value);
   }
@@ -35,7 +40,15 @@ function App() {
 
         <div className="flex flex-col p-10 rounded-t-xl w-fit">
           <span className="text-xl font-mono font-bold text-white animate-typewriter-loop lg:text-2xl ">
-            Currency Exchanger
+          <Typewriter
+          words={['Currency Exchanger']}
+          loop={0} // 0 = infinite
+          cursor
+          cursorStyle="|"
+          typeSpeed={80}
+          deleteSpeed={50}
+          delaySpeed={1500}
+        />
           </span>
           <span className="text-sm font-sans text-gray-300 mt-2 flex lg:text-base ">
             Live exchange rates
