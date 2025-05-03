@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@layer utilities {
+    @keyframes typewriter {
+      0% {
+        width: 0;
+      }
+      40% {
+        width: 100%;
+      }
+      60% {
+        width: 100%;
+      }
+      100% {
+        width: 0;
+      }
+    }
+  
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+      100% {
+        border-color: white;
+      }
+    }
+    .scrollbar-app {
+      --sb-track-color: #111827;
+      --sb-thumb-color: #777777;
+      --sb-size: 4px;
+    }
+    
+    .scrollbar-app::-webkit-scrollbar {
+      width: var(--sb-size);
+    }
+    
+    .scrollbar-app::-webkit-scrollbar-track {
+      background: var(--sb-track-color);
+      border-radius: 5px;
+    }
+    
+    .scrollbar-app::-webkit-scrollbar-thumb {
+      background: var(--sb-thumb-color);
+      border-radius: 5px;
+    }
+    
+    @supports not selector(::-webkit-scrollbar) {
+      .scrollbar-app {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+      }
+    }
+  }    
