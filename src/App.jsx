@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="bg-zinc-900	text-zinc-900 h-screen w-full flex justify-center items-center flex-col   ">
       <BackgroundBeams />
-      <div className="w-10/11 shadow-lg mx-auto my-auto text-white h-fit pb-5 rounded-xl z-10 border-2 border-gray-700 lg:w-94 ">
+      <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-3/4 xl:w-94 shadow-lg mx-auto my-auto text-white h-fit pb-5 rounded-xl z-10 border-2 border-gray-700 ">
         {/* ---------- Header box ---------- */}
 
         <div className="flex flex-col p-10 rounded-t-xl w-fit">
